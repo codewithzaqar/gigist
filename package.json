@@ -1,0 +1,28 @@
+{
+    "name": "GiGist",
+    "version": "1.0.0",
+    "description": "Gist client for everyone",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ./main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "gist",
+        "js",
+        "electron",
+        "desktop"
+    ],
+    "author": "codewithzaqar",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^32.1.2"
+    },
+    "dependencies": {
+        "request-promise": "^4.2.6",
+        "webpack": "^5.95.0"
+    }
+}
